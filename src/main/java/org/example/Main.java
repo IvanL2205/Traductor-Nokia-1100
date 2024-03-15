@@ -11,7 +11,7 @@ public class Main {
                 "\ningresando cada código y formar su frase/palabra, debe separar los códigos por guines medios \"-\"."+
                 "\nSi desea ingresar número naturales, por favor digitelos seguidos del uno(1)");
 
-        System.out.println("Su palabra/frase es: " + Traductor.teclado());
+        Traductor.teclado();
 
     }
 }
