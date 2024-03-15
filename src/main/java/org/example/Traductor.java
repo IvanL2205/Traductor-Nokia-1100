@@ -67,10 +67,9 @@ public class Traductor {
 
     public static boolean rep(String opcion){
         Scanner sc = new Scanner( System.in );
-        if (!opcion.equals("1") && !opcion.equals("2")){
+        while (!opcion.equals("1") && !opcion.equals("2")){
             System.out.println("La opcion no es correcta. Digite una opcion valida.");
             opcion = sc.next();
-            rep(opcion);
         }
         return opcion.equals("1");
     }
